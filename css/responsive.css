@@ -1,0 +1,24 @@
+@media screen and (max-width: 700px) {
+    main .button-line {
+        display: flex;
+        flex-direction: column;  
+    }
+    
+    main .button-line .button {
+        width: 200px;
+        min-width: 200px;
+        margin-top: 10px;
+        margin-right: 10px;
+        padding: 8px 15px;
+        font-size: 1rem;
+        transition: .3s ease all;
+    }
+    
+}
+
+@media screen and (min-width: 1000px) {
+    main .movie-description {
+        width: 60%;
+    }
+
+}
